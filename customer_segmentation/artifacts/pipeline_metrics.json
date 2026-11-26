@@ -1,0 +1,35 @@
+{
+  "n_customers": 2400,
+  "n_features": 12,
+  "selected_k": 6,
+  "silhouette_score": 0.5532,
+  "davies_bouldin_index": 0.6955,
+  "xgb_5fold_cv_macro_f1": 1.0,
+  "xgb_test_macro_f1": 1.0,
+  "personas": {
+    "0": {
+      "persona": "At-Risk Dissatisfied Reviewers",
+      "recommended_action": "Trigger priority support outreach, service recovery voucher, QA review"
+    },
+    "1": {
+      "persona": "Champions & Brand Advocates",
+      "recommended_action": "Enroll in VIP loyalty tier, request referrals, offer early product access"
+    },
+    "2": {
+      "persona": "Core Steady Customers",
+      "recommended_action": "Promote bundles and cross-sell complementary categories"
+    },
+    "3": {
+      "persona": "Dormant / Lapsed Buyers",
+      "recommended_action": "Launch targeted win-back email/offer with personalized picks"
+    },
+    "4": {
+      "persona": "Core Steady Customers",
+      "recommended_action": "Promote bundles and cross-sell complementary categories"
+    },
+    "5": {
+      "persona": "Core Steady Customers",
+      "recommended_action": "Promote bundles and cross-sell complementary categories"
+    }
+  }
+}
